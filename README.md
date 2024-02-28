@@ -1,6 +1,6 @@
 # EX-02 Implement Depth First Search Traversal of a Graph
 ### Aim:
-To Implement Depth First Search Traversal of a Graph using Python 3.
+To Implement Depth First Search Traversal of a Graph using Python 3.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE:**
 ### Theory:
 Depth First Traversal(or DFS) for a graph is like Depth First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles (a node may be visited twice). Use a Boolean visited array to avoid processing a node more than once. A graph can have more than one DFS traversal. 
 Depth-first search is an algorithm for traversing or searching trees or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
@@ -82,8 +82,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 </table>
 
 ### Algorithm:
- Step-1: Construct a Graph with Nodes and Edges.<br>
- Step-2: Depth First Search Uses Stack and Recursion.<br>
+ Step-1: Construct a Graph with Nodes and Edges.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Developed By: **ROHIT JAIN D**<br>
+ Step-2: Depth First Search Uses Stack and Recursion.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Register No: **212222230120**<br>
  Step-3: Insert a START node to the STACK.<br>
  Step-4: Find its Successors Or neighbors and Check whether the node is visited or not.<br>
  Step-5: If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
