@@ -9,7 +9,6 @@ Depth-first search is an algorithm for traversing or searching trees or graph da
 <td>
 
 Step 1: Initially, stack and visited arrays are empty.
-
 Queue and visited arrays are empty initi ally.
 Stack and visited arrays are empty initially.
 </td> 
@@ -22,7 +21,6 @@ Stack and visited arrays are empty initially.
 <td>
 
 Step 2: Visit 0 and put its adjacent nodes which are not visited yet into the stack.
-
  Visit node 0 and put its adjacent nodes (1, 2, 3) into the stack
  Visit node 0 and put its adjacent nodes (1, 2, 3) into the stack
 </td> 
@@ -48,7 +46,6 @@ Visit node 1
 <td>
 
 Step 4: Now, Node 2 at the top of the stack, so visit node 2 and pop it from the stack and put all of its adjacent nodes which are not visited (i.e, 3, 4) in the stack.
-
  Visit node 2 and put its unvisited adjacent nodes (3, 4) into the stack
  Visit node 2 and put its unvisited adjacent nodes (3, 4) into the stack
 </td> 
@@ -61,7 +58,6 @@ Step 4: Now, Node 2 at the top of the stack, so visit node 2 and pop it from the
 <td>
 
 Step 5: Now, Node 4 at the top of the stack, so visit node 4 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
-
  Visit node 4
  Visit node 4
 </td> 
@@ -91,39 +87,6 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  Step-3: Insert a START node to the STACK.<br>
  Step-4: Find its Successors Or neighbors and Check whether the node is visited or not.<br>
  Step-5: If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
-<table>
-<tr>
-<td>
- 
-**Sample Input**<br>
-8 9<br>
-A B<br>
-A C<br>
-B E<br>
-C D<br>
-B D<br>
-C G<br>
-D F<br>
-G F<br>
-F H<br>
-**Sample Ouput**<br>
-['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
-</td> 
-<td valign=top>
- 
-**Sample Input**<br>
-5 5 <BR>
-0 1 <BR>
-0 2 <BR>
-0 3 <BR>
-2 3 <BR>
-2 4 <BR>
-<br><br><br><br>
-**Sample Ouput**<br>
-['0', '1', '2', '3', '4']
-</td>
-</tr> 
-</table>
 
 ### Program:
 ```Python
@@ -150,6 +113,33 @@ path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
+### Execution:
+<table border=3>
+<tr border=3>
+<td border=3>
+ 
+**Input:** <br>
+8 9<br>
+A B<br>
+A C<br>
+B D<br>
+B E<br>
+C D<br>
+C G<br>
+D F<br>
+F G<br>
+F H<br>
+</td> 
+<td valign=top>
+
+**Output:** <br>
+['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
+ 
+</td>
+</tr> 
+</table>
+
+
 ### Result:
 Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.
 
