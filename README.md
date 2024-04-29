@@ -1,6 +1,6 @@
 # EX-02 Implement Depth First Search Traversal of a Graph
 ### Aim:
-To Implement Depth First Search Traversal of a Graph using Python 3.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE: 14.02.2024**
+To Implement Depth First Search Traversal of a Graph using Python 3.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**DATE: 14.02.2024**
 ### Theory:
 Depth First Traversal(or DFS) for a graph is like Depth First Traversal of a tree. The only catch here is that, unlike trees, graphs may contain cycles (a node may be visited twice). Use a Boolean visited array to avoid processing a node more than once. A graph can have more than one DFS traversal. 
 Depth-first search is an algorithm for traversing or searching trees or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
